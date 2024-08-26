@@ -1,0 +1,17 @@
+{
+  "name": "meta-data-server",
+  "version": "1.0.0",
+  "description": "meta data server for Distributed File Storage",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "author": "suyash0x",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
